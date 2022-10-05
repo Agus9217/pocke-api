@@ -8,61 +8,51 @@
   <title>Document</title>
 </head>
 <body>
-
   <div class="container">
+    <div id="input-pokemon" class="input-pokemon">
+      <label for="pokemon">Input a number to find your Pokemon!</label>
+      <input type="number" name="pokemon" id="pokemon">
+    </div>
     <div class="card-container">
       <div class="card-title">
-        <div class="card-name">
-          Nombre
-        </div>
-        <div class="card-hp">
-          hp
-        </div>
+        <span id="card-name"></span>
+        <span id="card-hp"></span>
       </div>
       <div class="card-img">
-  
+        <img src="" alt="" id="card-img">
       </div>
       <div class="card-genetic-pokemon">
-        Altura / Peso
+        <span id="card-weigth"></span>
+        <span id="card-heigth"></span>
+        <span id="card-type"></span>
       </div>
-      <div class="card-ability">
-        Ability
+      <div class="abilities-title">
+        <span>Abilities</span>
+      </div>
+      <div class="card-abilities">
+        <span id="ability"></span>
       </div>
       <hr/>
-      <div class="card-type">
-        Type
+      <div class="primary-attributes-title">
+        <span>Attributes</span>
       </div>
-      <hr/>
-      <div class="card-attributes">
-        <span class="primary-attributes-title">primary-attributes</span>
-        <div class="primary-attributes">
-          <div class="attack">
-            
-          </div>
-          <div class="defence">
-            
-          </div>
-          <div class="speed">
-            
-          </div>
-        </div>
-        <hr/>
-  
-        <span class="special-attributes-title">special-attributes</span>
-        <div class="special-attributes">
-          <div class="special-attack">
-            
-          </div>
-          <div class="special-defence">
-            
-          </div>
-        </div>
-        
+      <div class="card-primary-attributes">
+        <span id="attack"></span>
+        <span id="defence"></span>
+        <span id="speed"></span>
       </div>
-  
+  <hr/>
+      <div class="special-attributes-title">
+        <span>Special-attributes</span>
+      </div>
+      <div class="card-special-attributes">
+        <span id="special-attack"></span>
+        <span id="special-defence"></span>
+      </div>
     </div>
   </div>
   
+      
   <script src="main.js"></script>
 </body>
 </html>
