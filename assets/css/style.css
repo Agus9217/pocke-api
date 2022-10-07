@@ -1,0 +1,96 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  padding: 10px;
+  max-width: 300px;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.ash-img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.label-input {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-send {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: none;
+  background: gold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#btn-send:hover {
+  background: skyblue;
+}
+
+.card-pokemon {
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 30px;
+  max-width: 300px;
+  padding: 5px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#genetic-pokemon > span {
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+
+.weight-height {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 260px;
+  height: 160px;
+}
+
+@media(max-width:600px) {
+  .ash-img {
+    display: none;
+  }
+}
+
+.card-img > img {
+  height: 100%;
+}
+
+.form-container {
+  padding-bottom: 30px;
+}
+
+

@@ -4,55 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <div id="input-pokemon" class="input-pokemon">
-      <label for="pokemon">Input a number to find your Pokemon!</label>
-      <input type="number" name="pokemon" id="pokemon">
-    </div>
-    <div class="card-container">
-      <div class="card-title">
-        <span id="card-name"></span>
-        <span id="card-hp"></span>
-      </div>
-      <div class="card-img">
-        <img src="" alt="" id="card-img">
-      </div>
-      <div class="card-genetic-pokemon">
-        <span id="card-weigth"></span>
-        <span id="card-heigth"></span>
-        <span id="card-type"></span>
-      </div>
-      <div class="abilities-title">
-        <span>Abilities</span>
-      </div>
-      <div class="card-abilities">
-        <span id="ability"></span>
-      </div>
-      <hr/>
-      <div class="primary-attributes-title">
-        <span>Attributes</span>
-      </div>
-      <div class="card-primary-attributes">
-        <span id="attack"></span>
-        <span id="defence"></span>
-        <span id="speed"></span>
-      </div>
-  <hr/>
-      <div class="special-attributes-title">
-        <span>Special-attributes</span>
-      </div>
-      <div class="card-special-attributes">
-        <span id="special-attack"></span>
-        <span id="special-defence"></span>
-      </div>
-    </div>
+  <div class="logo">
+    <img src="assets/img/International_Pokémon_logo.svg.png" alt="">
   </div>
-  
+
+  <div class="container">
+    <img class="ash-img" src="assets/img/ash-intro.png" alt="">
+
+    <form id="form">
+      <div class="form-container">
+        <div class="label-input">
+          <label for="input-pokemon">Selecciona un número para buscar tu Pokemon!</label>
+          <input type="number" id="input-pokemon" />
+        </div>
+        <button id="btn-send" type="submit">Enviar</button>
+      </div>
+      <div class="card-pokemon">
+       <div class="card-header">
+        <span id="name"></span>
+        <span id="hp"></span>
+       </div>
+       <div class="card-img">
+        <img id="card-img" src="assets/img/pregunta.png" />
+       </div>
+       <div id="genetic-pokemon">
+         <div class="weight-height">
+          <span id="weight"></span>
+         </div>
+         <span id="type"></span>
+         <span id="attack"></span>
+         <span id="defence"></span>
+         <span id="speed"></span>
+         <span id="special-attack"></span>
+         <span id="special-defence"></span>
+       </div>
+      </div>
+    </form>
+  </div>
+
       
-  <script src="main.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
